@@ -47,7 +47,7 @@ def compare(known_embedding, candidate_embedding, threshold = 0.4):
         print('\nFace is not a match')
     print("Distance :",dist)
 
-img_paths = ['img0.jpg', 'img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg'] # list of paths of images
+img_paths = ['images/img0.jpg', 'images/img1.jpg', 'images/img2.jpg', 'images/img3.jpg', 'images/img4.jpg'] # list of paths of images
 
 embeddings = get_embeddings(img_paths) # getting the face embeddings of the list of images
 
